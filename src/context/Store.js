@@ -5,7 +5,7 @@ const initialState = {
   userInfo: localStorage.getItem('userInfo')
     ? JSON.parse(localStorage.getItem('userInfo'))
     : null,
-  baseUrl: 'http://127.0.0.1:5000/api',
+  baseUrl: 'https://animaldrugapi.onrender.com/api',
 };
 function reducer(state, action) {
   switch (action.type) {
